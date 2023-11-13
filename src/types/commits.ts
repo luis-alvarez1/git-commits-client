@@ -1,5 +1,5 @@
 export interface CommitsState {
-    data: Array<CommitsResponse>;
+    data: CommitsResponse | object;
     loading: boolean;
     error: string;
 }
