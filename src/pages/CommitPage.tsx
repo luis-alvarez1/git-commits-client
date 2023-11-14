@@ -47,7 +47,6 @@ export const CommitPage = () => {
     );
 };
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const loader = (dispatch: Dispatch): LoaderFunction => {
     return ({ params }: LoaderFunctionArgs) => {
         if (params.id) {
