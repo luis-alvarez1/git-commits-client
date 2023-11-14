@@ -4,15 +4,15 @@
 
 ## Libraries
 
--   **Vite:**
--   **React:**
--   **Redux:**
--   **Redux-Saga:**
--   **Tailwind CSS:**
--   **React Router DOM:**
--   **Axios:**
--   **TypeScript:**
--   **Heroicons:**
+-   **Vite**
+-   **React**
+-   **Redux**
+-   **Redux-Saga**
+-   **Tailwind CSS**
+-   **React Router DOM**
+-   **Axios**
+-   **TypeScript**
+-   **Heroicons**
 
 ---
 
@@ -39,3 +39,6 @@
 ```
 
 4. Now you can open a browser window and enter your [localhost](http://localhost:3000) on port 3000 to see the running app.
+
+# Made by
+- Author - [Luis Alvarez](https://github.com/luis-alvarez1)
