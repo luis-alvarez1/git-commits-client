@@ -1,27 +1,41 @@
-# React + TypeScript + Vite
+# Git Commits Viewer Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This project was made to be part of the tech-interview for FULLTIMEFORCE
 
-Currently, two official plugins are available:
+## Libraries
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Vite:**
+-   **React:**
+-   **Redux:**
+-   **Redux-Saga:**
+-   **Tailwind CSS:**
+-   **React Router DOM:**
+-   **Axios:**
+-   **TypeScript:**
+-   **Heroicons:**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instructions
 
-- Configure the top-level `parserOptions` property like this:
+1. Firstly, you'll have to clone and run the backend repository for this solution (instructions there) [luis-alvarez1/git-commits-back](https://github.com/luis-alvarez1/git-commits-back).
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+2. After satisfactory running the backend, you can now clone this repo, open a terminal and install all the dependencies with the command:
+
+```bash
+   # YARN
+   yarn install
+   # NPM
+   npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. When the dependencies installation is completed, you can run the app with the command:
+
+```bash
+   # YARN
+   yarn start
+   # NPM
+   npm start
+```
+
+4. Now you can open a browser window and enter your [localhost](http://localhost:3000) on port 3000 to see the running app.
