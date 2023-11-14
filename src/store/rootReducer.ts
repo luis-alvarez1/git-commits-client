@@ -1,4 +1,4 @@
 import { combineReducers } from 'redux';
-import commitsReducer from './reducers/commits.reducer';
+import commits from './reducers/commits.reducer';
 
-export const rootReducers = combineReducers({ commitsReducer });
+export const rootReducers = combineReducers({ commits });

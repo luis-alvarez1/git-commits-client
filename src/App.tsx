@@ -1,14 +1,17 @@
 import { useDispatch } from 'react-redux';
-import './App.css';
 import { getAllCommits } from './store/actions/commits.actions';
+import { useEffect } from 'react';
+import { CommitsList } from './components/Commits/CommitsList';
 
 function App() {
     const dispatch = useDispatch();
 
-    dispatch(getAllCommits());
+    useEffect(() => {
+        dispatch(getAllCommits());
+    }, [dispatch]);
     return (
         <>
-            <h1>Hello World</h1>
+            <CommitsList />
         </>
     );
 }
